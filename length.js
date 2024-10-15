@@ -20,7 +20,7 @@ const numbers = [1, 13, 34, 56, 45, 67,69, 56, 90, 89,];
 //push
 
 //push
-const brands = ["Gucci", "Chanel", "Dior", "Louis Vuitton","Prada", ];
+const brands = ["Gucci", "Chanel", "Dior", "Louis Vuitton","Prada" ];
 // brands.push("Hermès")
 // console.log(brands);
 //push
@@ -31,7 +31,7 @@ const brands = ["Gucci", "Chanel", "Dior", "Louis Vuitton","Prada", ];
 //pop
 
 //unshift
-const brand = ["Gucci", "Chanel", "Dior", "Louis Vuitton","Prada", ];
+const brand = ["Gucci", "Chanel", "Dior", "Louis Vuitton","Prada" ];
 brand.unshift("Hermès");
 console.log(brand);
 //unshift
@@ -41,3 +41,8 @@ console.log(brand);
 // brand.shift("Hermès");
 // console.log(brand);
 //shift
+
+const member = ["Tinni","Munni","Rushad","Nusayba","Rufayed" ];
+// const x = member.includes("Nusayba");
+// console.log(x)
+console.log(Array.isArray(member))
